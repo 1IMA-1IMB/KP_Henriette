@@ -1,0 +1,232 @@
+body {
+background-color: rgb(27, 26, 27);
+height: 1000px;
+}
+.container {
+display: flex;
+flex-direction: column;
+justify-content: top;
+align-items:center;
+height: 100%;
+width: 100%;
+
+
+}
+.box {
+display: flex;
+background: rgb(255, 255, 255);
+align-items: center;
+justify-content: start;
+height: 50px;
+width: 1426px;
+margin: -10px;
+margin-left: -13px;
+}
+.box1 {
+    display: flex;
+    background: rgb(0, 94, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+.box2 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 125px;
+    font-size: 13px;
+}
+.box3 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 165px;
+}
+:hover.box3 {
+background-color: rgb(240, 236, 231);
+}
+.box4 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 110px;
+}
+:hover.box4 {
+    background-color: rgb(240, 236, 231);
+    }
+.box5 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 108px;
+}
+:hover.box5 {
+    background-color: rgb(240, 236, 231);
+    }
+.box6 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 70px;
+}
+:hover.box6 {
+    background-color: rgb(240, 236, 231);
+    }
+.box7 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 112px;
+}
+.box8 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 55px;
+}
+.box9 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 90px;
+}
+:hover.box9 {
+    background-color: rgb(240, 236, 231);
+    }
+.box10 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 140px;
+}
+:hover.box10 {
+    background-color: rgb(240, 236, 231);
+    }
+.box11 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 140px;
+}
+:hover.box11 {
+    background-color: rgb(240, 236, 231);
+    }
+.box12 {
+    display: flex;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 90px;
+}
+:hover.box12 {
+    background-color: rgb(240, 236, 231);
+    }
+.box13 {
+    display: flex;
+    background: rgb(53, 83, 255);
+    align-items: center;
+    justify-content:center;
+    height: 40px;
+    width: 165px;
+    margin: 4px;
+    margin-left: 5px;
+    margin-top: 6px;
+    font-size: 13px;
+}
+:hover.box13 {
+    background-color: rgb(42, 69, 226);
+    }
+h2 {
+color: aliceblue;
+}
+h3 {
+font-size: 18px;
+}
+.box14 {
+    display: flex;
+    background: rgb(27, 26, 27);
+    align-items: center;
+    flex-direction: column;
+    margin-top: 87px;
+    height: 500px;
+    width: 800px;
+}
+.box15 {
+    display: flex;
+    background: rgb(27, 26, 27);
+    align-items: center;
+    justify-content:center;
+    height: 160px;
+    width: 800px;
+    overflow-wrap: break-all;
+    inline-size:770px;
+    text-align: center;
+}
+h4 {
+font-size: 50px;
+font-stretch: 120%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(255, 255, 255);
+} 
+.box16 {
+    display: flex;
+    background: rgb(27, 26, 27);
+    align-items: center;
+    justify-content:center;
+    height: 80px;
+    width: 800px;
+    overflow-wrap: break-all;
+    inline-size: 820px;
+    text-align: center;
+}
+h5 {
+font-size: 16px;
+font-stretch: 120%;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+color: white;
+}
+.box17 {
+    display: flex;
+    background: rgb(60, 121, 243);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70px;
+    width: 217px;
+    margin-top: 10px;
+}
+:hover.box17 {
+    background-color: rgb(84, 135, 237);
+}
+.box18 {
+    display: flex;
+    background: rgb(60, 121, 243);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 94%;
+    width: 94%;
+    margin-top: 35px;
+}

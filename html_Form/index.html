@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form</title>
+<link rel="stylesheet" href="css/Style.css">
+
+</head>
+<body>
+<script src="color.js"></script>
+
+<div class="header">  
+    <h1> HTML FORM </h1>
+</div>
+  <div class="form-container">
+
+    <form>
+        <label for="fname">Fornavn:</label>
+        <input type="text" id="fname" placeholder="Lars"><br>
+        <label for="lname">Etternavn:</label>
+        <input type="text" id="lname" placeholder="Pettersen"><br>
+        <input type="submit" value="Send inn">
+      </form> 
+
+
+      <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+      </form> 
+
+      <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="1">
+  <label for="vehicle1"> Water</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="2">
+  <label for="vehicle2"> Milk</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="3">
+  <label for="vehicle3"> Juice</label>
+  <input type="submit" value="Send inn">
+      </form>
+
+      <form>
+      <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+</form>
+
+<form>
+  <input type="text" id="fname" name="fname" placeholder="John">
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" placeholder="Doe">
+  
+<input type="checkbox">
+<label for="favcolor">Select your favorite color:</label>
+
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday">
+
+<label for="birthdaytime">Birthday (date and time):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email" placeholder="johndoe@mail.test">
+
+  <label for="myfile">Select a file:</label>
+  <input type="file" id="myfile" name="myfile">
+<input type="hidden">
+<input type="image" src="images/Duck.jpg.jpg" alt="Submit" width="50" height="50">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+
+<label for="fname">First name:</label>
+
+<input type="reset" value="Reset">
+<input type="search">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+<input type="submit">
+
+</form>
+<form>
+<input type="color" id="color" name="favcolor">
+<button type="button" id="btn" onClick="javascript:changecolor()">Change background </button>
+</form>
+
+  </div>
+
+</body>
+</html>
