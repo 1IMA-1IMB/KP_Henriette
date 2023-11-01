@@ -7,13 +7,13 @@ background: rgb(255, 255, 255);
 display: flex;
 flex-direction: column;
 height: 100vh;
-background: rgb(70, 255, 233) ;
+background: rgb(255, 255, 255) ;
 border: solid rgb(130, 130, 130) 2px;
 
 }
 
 .header {
-    height: 30%;
+    height: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ border: solid rgb(130, 130, 130) 2px;
 }
 
 .middle {
-    height: 30%;
+    height: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ border: solid rgb(130, 130, 130) 2px;
 }
 
 .footer {
-    height: 30%;
+    height: 33%;
     display: flex;
     background:rgb(154, 255, 243) ;
     border: solid rgb(20, 20, 20) 2px;
@@ -42,14 +42,43 @@ border: 10px rgb(255, 255, 255) dotted;
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1430px) {
 
+    .header {
+        background: rgb(236, 255, 207);
+    }
+    
     .middle {
-        background: greenyellow;
+        background: rgb(220, 255, 167);
+    }
+
+    .footer {
+        background: rgb(196, 252, 111) ;
     }
 img {
- width: 140px;
- height: 120px;
+ width: 22%;
+ height: 65%;
 }
+
+    }
+
+@media only screen and (max-width: 550px) {
+
+    .header {
+        background: rgb(255, 210, 255);
+    }
+
+    .middle {
+        background: rgb(255, 169, 255);
+    }
+
+    .footer {
+        background: rgb(255, 109, 255);
+    }
+
+    img {
+        width: 30%;
+        height: 65%;
+     }
 
     }
