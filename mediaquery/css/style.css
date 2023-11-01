@@ -13,7 +13,7 @@ border: solid rgb(130, 130, 130) 2px;
 }
 
 .header {
-    height: 33%;
+    height: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ border: solid rgb(130, 130, 130) 2px;
 }
 
 .middle {
-    height: 33%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ border: solid rgb(130, 130, 130) 2px;
 }
 
 .footer {
-    height: 33%;
+    height: 25%;
     display: flex;
     background:rgb(154, 255, 243) ;
     border: solid rgb(20, 20, 20) 2px;
@@ -55,9 +55,9 @@ border: 10px rgb(255, 255, 255) dotted;
     .footer {
         background: rgb(196, 252, 111) ;
     }
-img {
- width: 22%;
- height: 65%;
+    img {
+        width: 20%;
+        height: 70%;
 }
 
     }
@@ -70,6 +70,7 @@ img {
 
     .middle {
         background: rgb(255, 169, 255);
+        flex-direction: column;
     }
 
     .footer {
@@ -77,8 +78,10 @@ img {
     }
 
     img {
-        width: 30%;
-        height: 65%;
+        width: 17%;
+        height: 27%;
+        margin: 5px;
+        border: dotted white 3px;
      }
 
     }
